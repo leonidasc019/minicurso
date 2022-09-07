@@ -9,7 +9,7 @@ custom:
 
 provider:
   name: aws
-  profile: aluno_9
+  profile: aluno_1
   runtime: nodejs14.x
   stage: ${opt:stage, 'test'}
   region: ${opt:region, 'us-east-2'}
