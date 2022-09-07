@@ -4,7 +4,7 @@ service: minicurso
 frameworkVersion: '3'
 
 custom:
-  relatoriosBucket: '${self:service}-${self:provider.stage}-relatorios-bucket-paulo-${self:provider.region}'
+  relatoriosBucket: '${self:service}-${self:provider.stage}-relatorios-bucket-leonidas-${self:provider.region}'
   folder_bucket: '${param:folder_bucket, "relatorios"}/'
 
 provider:
